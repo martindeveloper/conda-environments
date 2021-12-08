@@ -1,0 +1,11 @@
+name: data-science
+channels:
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+  - python=3.9
+  - conda-forge::julia=1.6.4
+  - r::r-essentials=3.6.0
+  - conda-forge::jupyterlab=3.2.4
+
